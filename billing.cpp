@@ -125,7 +125,7 @@ void shopping:: buyer()
     cout<<"                        \n";
     cout<<"\t\t\t1) Buy product    \n";
     cout<<"                        \n";
-    cout<<"\t\t\t22)  Go back       \n";
+    cout<<"\t\t\t2)  Go back       \n";
     cout<<"\t\t\t Enter your choice  :  ";
 
     cin>>choice;
@@ -232,6 +232,8 @@ void shopping :: edit()
                 cin>>n;
                 cout<<"\n\t\t Price :";
                 cin>>p;
+                cout<<"\n\t\t Discount :";
+                cin>>d;
                 data1<<" "<<c<<" "<<n<<" "<<p<<" "<<d<<"\n";
                 cout<<"\n\n\t\t Record edited ";
                 token++;
