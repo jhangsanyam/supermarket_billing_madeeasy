@@ -26,6 +26,7 @@ To run this project locally, follow these steps:
 2.install npm packages
    ```bash
    npm install
+
 3.start project
     ```bash
 npm start
