@@ -23,5 +23,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/social-memories-website.git
 cd social-memories-website
+ ```bash
 npm install
+ ```bash
 npm start
